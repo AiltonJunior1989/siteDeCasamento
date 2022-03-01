@@ -335,6 +335,7 @@ footer ul li a {
     #container .foto {
         display: block;
         width: 100%;
+        pointer-events: none;
     }
 
     .small_img {
@@ -345,4 +346,11 @@ footer ul li a {
         display: none;
     }
 
+    footer {
+        flex-direction: column;
+    }
+
+    footer p {
+        text-align: center;
+    }
 }
