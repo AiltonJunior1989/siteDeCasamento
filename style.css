@@ -54,6 +54,7 @@ header nav ul li a:hover {
     background-image: url(img/alianca.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -305,11 +306,13 @@ footer ul li a {
     }
 
     #imgcasamento h1{
-        font-size: 60px;
+        font-size: 45px;
+        color: #fff;
     }
 
-    #imgcasamento #data {
+    #imgcasamento #data, #imgcasamento #conhecanos {
         margin: 10px;
+        font-size: 20px;
     }
 
     #historia {
